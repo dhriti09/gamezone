@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamezone</title>
+    <!-- link to fontawesome for inserting social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="sticky">
+        <a href="#" class="logo">Gamers</a>
+        <ul class="nav">
+            <li><a href="#Home">Home<i class="fa-solid fa-house"></i></a></li>
+               <li><a href="#about">About<i class="fa-solid fa-user"></i></a></li>
+                  <li><a href="#games">Games<i class="fa-solid fa-laptop-code"></i></a></li>
+                     <li><a href="#tournaments">Tournaments<i class="fa-solid fa-diagram-project"></i></a></li>
+                        <li><a href="#contact">Contacts<i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+        <div class="action">
+<div class="searchbox">
+    <a href="#"><i class= "bx  bx-search"></i> </a>
+    <input type="text" placeholder="Seach Games">
+</div>
+        </div>
+       <div class="toggleMenu" onclick="toggleMenu();">
+    <i class="fa-solid fa-bars"></i>
+</div>
+    </header>
+    <!--home banner-->
+    <div class="banner animeX" id="Home">
+        <div class="bg">
+            <div class="content">
+                <h2>A Place for<br>
+                Game Lovers</h2>
+                <p>“Pain itself, sit with the elite of those who suffer consequences.”  </p>
+                <a href="#" class="btn">Join now</a>
+            </div>
+            <img src="images/a.png" alt="Gamezone demo image">
+
+        </div>
+
+    </div>
+    <!-- About-->
+     <div class="about animeX" id="about">
+        <div class="contentbox">
+            <h2>About Us</h2>
+            <p> Welcome to <strong>Gamezone</strong> — your ultimate hub for immersive gaming experiences. We design responsive, fast, and interactive websites that bring the thrill of gaming straight to your screen. Our mission is to connect players with the latest titles, reviews, and community events, all in one place. </p>
+             <p> Whether you’re a casual gamer or a competitive pro, Gamezone is built to keep you engaged, informed, and entertained. Join us as we level up the way you play and explore the world of gaming. </p>
+      <a href="#">Read more</a>
+            </div>
+            <img src="images/bcd.png"  alt="vediogame image">
+     </div>
+     <!--Games-->
+     <div class="games animeX" id="games">
+        <h2>Popular Games</h2>
+       <ul>
+    <li class="list active" data-filter="all">All</li>
+    <li class="list" data-filter="PC">PC Games</li>
+    <li class="list" data-filter="Mobile">Mobile Games</li>
+</ul>
+        <div class="cardbox">
+            <div class="card" data-item="PC">
+                <img src ="images/4486f92393dd8cdbd48430dcf1bd0a6b.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>STICKMAN DRAGON FIGHT</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.50</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card" data-item="PC">
+                <img src ="images/f9d515404b35038ee18039cc0f4009ed.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Fruit Wheel</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.100</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="PC">
+                <img src ="images/5065618666610648d8193bea7ab6e382.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Batman Arkham City</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.500</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="Mobile">
+                <img src ="images/sw.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Subway Surfer</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.500</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card" data-item="Mobile">
+                <img src ="images/fn.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Fruit Ninja</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.80</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+<div class="card" data-item="PC">
+                <img src ="images/spidey.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Spider-man</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.800</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="PC">
+                <img src ="images/hs.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Hills of steel</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.400</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="PC">
+                <img src ="images/decor life.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Decorlife</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.100</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="PC">
+                <img src ="images/bp.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Block Puzzle</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.200</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="PC">
+                <img src ="images/gg.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Glam girl</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.500</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="Mobile">
+                <img src ="images/bs.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Bubble Shooter</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.500</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-item="PC">
+                <img src ="images/tr1.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Temple-run</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.500</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="PC">
+                <img src ="images/tr2.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Temple-run 2</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.500</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="PC">
+                <img src ="images/troz.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Temple-run oz</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.800</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="PC">
+                <img src ="images/ttt.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Tic Tac Toe</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.10</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="PC">
+                <img src ="images/su.jpg" alt="vediogame image">
+                <div class="content">
+                    <h4>Suduko</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>Rs.100</span></p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+     </div>
+     <!--Tournaments-->
+     <div class="tournaments animeX" id="tournaments">
+        <h2>Live Tournaments</h2>
+        <div class="boxBx">
+            <div class="box">
+                <img src="images/bground.jpg" alt="abc">
+                <div class="content">
+                    <h4><span>50</span>  Matches in progress</h4>
+                    <div class="btn">
+                        <a href="#" class = "watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="box">
+                <img src="images/pubg.jpg" alt="abc">
+                <div class="content">
+                    <h4><span>30</span>  Matches in progress</h4>
+                    <div class="btn">
+                        <a href="#" class = "watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="box">
+                <img src="images/sf.jpg" alt="abc">
+                <div class="content">
+                    <h4><span>40</span>  Matches in progress</h4>
+                    <div class="btn">
+                        <a href="#" class = "watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="box">
+                <img src="images/fa483a89d467609765680d04a67b57c1.jpg" alt="abc">
+                <div class="content">
+                    <h4><span>25</span>  Matches in progress</h4>
+                    <div class="btn">
+                        <a href="#" class = "watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="box">
+                <img src="images/ffff.jpg" alt="abc">
+                <div class="content">
+                    <h4><span>60</span>  Matches in progress</h4>
+                    <div class="btn">
+                        <a href="#" class = "watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="box">
+                <img src="images/cod.jpg" alt="abc">
+                <div class="content">
+                    <h4><span>55</span>  Matches in progress</h4>
+                    <div class="btn">
+                        <a href="#" class = "watch">Watch</a>
+                        <a href="#" class="join">Join Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </div>
+
+     <div class="contact animeX" id="contact">
+        <img src="images/contact.jpg" alt="abc">
+        <div class="form">
+            <h1>Contact us</h1>
+            <div class="inputBx">
+                <p>Enter Name</p>
+                <input type="text" placeholder="Full Name">
+            </div>
+             <div class="inputBx">
+                <p>Enter Email</p>
+                <input type="text" placeholder="abc@gmail.com">
+            </div>
+             <div class="inputBx">
+                <p>Message</p>
+                <textarea placeholder="Type here"></textarea>
+            </div>
+
+             <div class="inputBx">
+                <p>Enter Name</p>
+                <input type="Submit" placeholder="Submit">
+            </div>
+
+        </div>
+     </div>
+
+     <div id="gameModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closePopup()">&times;</span>
+        <h2 id="modalTitle">Game Name</h2>
+        <p>Loading your game experience...</p>
+        <div class="btn">
+            <a href="#" class="watch">Confirm Play</a>
+        </div>
+    </div>
+</div>
+
+     <!--Footer-->
+    <footer>
+        <div class="info">
+            <a href="#" class="logo">Gamers</a>
+            <p><i class="bx bx-copyright"></i> 2026 All Rights Reserved </p>
+            <ul>
+                 <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+               <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                 
+            </ul>
+        </div>
+    </footer>
+    
+    <script>
+
+/* Toggle Menu Function */
+function toggleMenu() {
+    const toggleMenu = document.querySelector('.toggleMenu');
+    const nav = document.querySelector('.nav');
+    toggleMenu.classList.toggle('active');
+    nav.classList.toggle('active');
+}
+
+/*Scrolling animation */
+
+window.addEventListener('scroll', function() {
+    
+    var header = document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 0);
+
+
+    var anime = document.querySelectorAll('.animeX');
+    for (var s = 0; s < anime.length; s++) {
+        var windowheight = window.innerHeight;
+        var animetop = anime[s].getBoundingClientRect().top;
+        var animepoint = 150;
+
+        if (animetop < windowheight - animepoint) {
+            anime[s].classList.add('active');
+        } else {
+            
+        }
+    }
+});
+
+/*Filterable cards*/
+let list = document.querySelectorAll('.list');
+let cards = document.querySelectorAll('.card');
+
+for (let i = 0; i < list.length; i++) {
+    list[i].addEventListener('click', function() {
+        for (let j = 0; j < list.length; j++) {
+            list[j].classList.remove('active');
+        }
+        this.classList.add('active');
+        let dataFilter = this.getAttribute('data-filter');
+        for (let k = 0; k < cards.length; k++) {
+            cards[k].classList.remove('active');
+            cards[k].classList.add('hide');
+            if (cards[k].getAttribute('data-item') == dataFilter || dataFilter == 'all') {
+                cards[k].classList.remove('hide');
+                cards[k].classList.add('active');
+            }
+        }
+    });
+}
+ 
+</script>
+    
+</body>
+</html>
